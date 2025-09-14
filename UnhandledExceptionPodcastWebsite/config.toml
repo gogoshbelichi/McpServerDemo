@@ -1,0 +1,45 @@
+baseURL = "https://unhandledexceptionpodcast.com/"
+languageCode = "en-gb"
+title = "The Unhandled Exception Podcast"
+theme = "m10c"
+disqusShortname = "the-unhandled-exception-podcast"
+googleAnalytics = "G-RN9Q259LF1"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 100
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 200
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/pages/about/"
+    weight = 300
+  [[menu.main]]
+    identifier = "guest-faq"
+    name = "Guest FAQ"
+    url = "/pages/guest-faq/"
+    weight = 300
+  [[menu.main]]
+    identifier = "sponsorship"
+    name = "Sponsorship"
+    url = "/pages/sponsorship/"
+    weight = 300
+
+[params]
+  author = "Dan Clarke"
+  avatar = "images/UepLogoText.png"
+  description = "Software Development podcast hosted by Dan Clarke"
+  menu_item_separator = " - "
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/dracan/UnhandledExceptionPodcastWebsite"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/dracan"
